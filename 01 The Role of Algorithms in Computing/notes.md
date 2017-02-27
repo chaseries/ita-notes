@@ -7,6 +7,7 @@ Informally, an algorithm is any well-defined computational procedure that takes 
 Here is how we formally define the *sorting problem*:
 
 **Input**: A sequence of *n* numbers ⟨a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub>⟩.
+
 **Output**: A permutation (reordering) ⟨a′<sub>1</sub>, a′<sub>2</sub>, ..., a′<sub>n</sub>⟩ of the input sequence such that a′<sub>1</sub> ≤ a′<sub>2</sub> ≤ ... ≤ a′<sub>n</sub>.
 
 
