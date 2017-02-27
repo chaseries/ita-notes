@@ -10,4 +10,4 @@ Here is how we formally define the *sorting problem*:
 
 **Output**: A permutation (reordering) ⟨a′<sub>1</sub>, a′<sub>2</sub>, ..., a′<sub>n</sub>⟩ of the input sequence such that a′<sub>1</sub> ≤ a′<sub>2</sub> ≤ ... ≤ a′<sub>n</sub>.
 
-
+For example, given ⟨31,41,59,26,41,58⟩, a sorting algorithm returns as output the sequence ⟨26, 31, 41, 41, 58, 59⟩.
