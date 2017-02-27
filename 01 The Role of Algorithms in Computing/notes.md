@@ -1,5 +1,7 @@
 # The Role of Algorithms in Computing
 
+TODO: Flesh out problems
+
 ## 1.1 Algorithms
 
 Informally, an algorithm is any well-defined computational procedure that takes some value, or set of values, as input, and produces some value, or set of values, as output. An algorithm is thus the sequence of computational steps that transforms an input into an output.
@@ -39,7 +41,7 @@ Of course, computers may be fast, but they are not infinitely fast. And memory m
 
 **1.2-2**
 
-Assume or inputs of size *n*, insertion sort runs in 8*n*<sup>2</sup> steps, while merge sort runs in 64*n* lg *n* steps
+Assume or inputs of size *n*, insertion sort runs in 8*n*<sup>2</sup> steps, while merge sort runs in 64*n* lg *n* steps. For which values of n does insertion sort beat merge sort?
 
 **1.2-3**
 
