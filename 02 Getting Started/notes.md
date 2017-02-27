@@ -32,8 +32,31 @@ must show three things about a loop invariant:
 ### Definitions
 
 *Keys*: In the *sorting problem*, *keys* are the numbers of an array by which we sort.
-*Loop invariants*: 
+*Loop invariants*: Some portion of an input set which remains correct throughout the running of the algorithm. In the case of insertion sort, it is the trivally-sorted 1-element array A[0] against which each loop iteration is compared, resulting in an accumulating set of sorted elements for each iteration.
+
+### Exercises
+
+**2.1-1**
+
+Not doing this.
+
+**2.1-2**
+
+Answered in `insertion_sort_dec.py`.
+
+**2.1-3**
+
+Not doing this.
+
+**2.1-4**
+
+Not doing this.
 
 ## 2.2 Analyzing Algorithms
 
-*Analyzing* an algorithm has come to mean predicting the resources that the algorithm requires. Occasionally, resources such as memory, communication bandwidth, or computer hardware are of primary concern. Usually, though, it is time.
+*Analyzing* an algorithm has come to mean predicting the resources that the algorithm requires. Occasionally, resources such as memory, communication bandwidth, or computer hardware are of primary concern. Usually, though, it is time as a function of input size.
+
+The best notion for *input size* depends on the problem; sometimes it is the number of items in the input (e.g., discrete Fourier transforms), other times it is the number of bits (e.g., multiplying two integers).
+
+The *running time* of an algorithm on a particular input is the number of primitive
+operations or “steps” executed. For simplicity, we assume a constant amount of time is required to execute each line of our code. One line may take a different amount of time than another line, but we shall assume that each execution of the *i*th line takes time c<sub>i</sub>, where c<sub>i</sub> is a constant.
