@@ -32,7 +32,7 @@ must show three things about a loop invariant:
 ### Definitions
 
 *Keys*: In the *sorting problem*, *keys* are the numbers of an array by which we sort.
-*Loop invariants*: Some portion of an input set which remains correct throughout the running of the algorithm. In the case of insertion sort, it is the trivally-sorted 1-element array A[0] against which each loop iteration is compared, resulting in an accumulating set of sorted elements for each iteration.
+*Loop invariants*: Some portion of an input set which remains correct throughout the running of the algorithm. In the case of insertion sort on array A, it is the trivially-sorted 1-element subarray A[0] against which each loop iteration is compared. The result of each iteration i is the sorted subarray A[0:i + 1].
 
 ### Exercises
 
