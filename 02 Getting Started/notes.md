@@ -22,8 +22,18 @@ The numbers that we wish to sort are the *keys*.
 8     A[i + 1] = key
 ```
 
+We use loop invariants to help us understand why an algorithm is correct. We
+must show three things about a loop invariant:
+
+* Initialization: It is true prior to the first iteration of the loop
+* Maintenance: If it is true before an iteration of the loop, it remains true before the next iteration
+* Termination: When the loop terminates, the invariant gives us a useful property that helps show the algorithm is correct.
 
 ### Definitions
 
 *Keys*: In the *sorting problem*, *keys* are the numbers of an array by which we sort.
 *Loop invariants*: 
+
+## 2.2 Analyzing Algorithms
+
+*Analyzing* an algorithm has come to mean predicting the resources that the algorithm requires. Occasionally, resources such as memory, communication bandwidth, or computer hardware are of primary concern. Usually, though, it is time.
