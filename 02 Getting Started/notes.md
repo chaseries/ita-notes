@@ -11,7 +11,7 @@ Our first algorithm solves the *sorting problem* introduced in Chapter 1:
 The numbers that we wish to sort are the *keys*.
 
 ```
-0 insertion_sort(A):
+0 INSERTION-SORT(A):
 1   for j = 2 to A.length:
 2     key = A[j]
 3     // Insert A[j] into the sorted sequence A[1..j - 1]
