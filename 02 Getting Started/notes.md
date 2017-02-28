@@ -32,6 +32,7 @@ must show three things about a loop invariant:
 ### Definitions
 
 *Keys*: In the *sorting problem*, *keys* are the numbers of an array by which we sort.
+
 *Loop invariants*: Some portion of an input set which remains correct throughout the running of the algorithm. In the case of insertion sort on array A, it is the trivially-sorted 1-element subarray A[0] against which each loop iteration is compared. The result of each iteration i is the sorted subarray A[0:i + 1].
 
 ### Exercises
@@ -60,3 +61,20 @@ The best notion for *input size* depends on the problem; sometimes it is the num
 
 The *running time* of an algorithm on a particular input is the number of primitive
 operations or “steps” executed. For simplicity, we assume a constant amount of time is required to execute each line of our code. One line may take a different amount of time than another line, but we shall assume that each execution of the *i*th line takes time c<sub>i</sub>, where c<sub>i</sub> is a constant.
+
+### Worst-case and average-case analysis
+
+We will generally focus on worst-case and average-case analysis and disregard the best case, because:
+
+* The worst-case running time of an algorithm gives us an upper bound on the running time for any input. It is a guarantee the algorithm will never take any longer.
+* For some algorithms, worst-case occurs fairly often
+* The average case is often roughly as bad as the worst case.
+
+### Order of growth
+
+In general, it isn't constant factors, but only the *rate of growth* or *order of growth* that interests us.
+
+### Definitions
+
+*Analysis*: Predicting the resources an algorithm requires.
+*Input size*: A notion representing the heft of the problem a given algorithm must solve. *Input size* may most appropriately refer to different things, like the number of elements in a sortable array, or the number of bits involved in integer multiplication.
