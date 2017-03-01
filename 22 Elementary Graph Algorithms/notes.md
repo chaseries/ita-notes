@@ -36,3 +36,19 @@ Figure 22.1 Two representations of an undirected graph
 5 | 1 1 0 1 0
 
 ```
+
+...much omitted...
+### Exercises
+
+**22.1-1**
+
+Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degrees would require Θ(|V||E|) time.
+
+**22.1-2**
+ 
+        ①
+      /   \
+    ②       ③
+  /  \    /   \
+ ④    ⑤  ⑥     ⑦
+
