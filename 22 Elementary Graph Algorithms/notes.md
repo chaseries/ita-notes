@@ -53,3 +53,31 @@ Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degre
   /  \    /   \
  ④   ⑤  ⑥    ⑦
 ```
+
+{ 1: [2,3] 
+, 2: [1,4,5]
+, 3: [1,6,7]
+, 4: [2]
+, 5: [2]
+, 6: [3]
+, 7: [3]
+}
+
+   1 2 3 4 5 6 7
+1  0 1 1 0 0 0 0
+2  1 0 0 1 1 0 0
+3  1 0 0 0 0 1 1
+4  0 1 0 0 0 0 0
+5  0 1 0 0 0 0 0
+6  0 0 1 0 0 0 0
+7  0 0 1 0 0 0 0
+
+## 22.2 Breadth-first search
+
+Breadth-first search is one of the simplest algorithms for searching a graph and the archetype for many important graph algorithms. Breadth-first search is so-named because it expands the frontier between discovered and undiscovered vertices uniformly across the breadth of the frontier. That is, the algorithm discovers all vertices at distance *k* from *s* before discovering any vertices at distance *k* + 1.
+
+Given a graph *G = (V, E)* and a distinguished *source* vertex *s*, breadth-first search:
+
+* systematically explores the edges of *G* to "discover" every vertex that is reachable from *s*.
+* Computes the distance (smallest number of edges) from *s* to each reachable vertex.
+* Produces a "breadth-first tree" with root *s* that contains all reachable vertices. (For any vertex *v* reachable from *s*, the simple path in the breadth-first tree from *s* to *v* corresponds to a "shortest path" from *s* to *v* in *G*.)

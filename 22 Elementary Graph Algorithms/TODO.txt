@@ -1,0 +1,5 @@
+Reading this was intended to be a quick primer on graphs.
+
+I left off roughly at page 594, Ch. 22.2 Breadth-first search. The notes are incomplete because I was focused on understanding the material. On my second pass through I'll flesh them out.
+
+The little python script 'bfs.py' is to be an implementation of breadth-first search on a graph, but it is currently incomplete as I have to jump back and refresh myself on some more elementary data structures.
