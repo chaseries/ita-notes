@@ -51,5 +51,5 @@ Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degre
       /   \
     ②       ③
   /  \    /   \
- ④    ⑤  ⑥     ⑦
+ ④   ⑤  ⑥    ⑦
 ```
