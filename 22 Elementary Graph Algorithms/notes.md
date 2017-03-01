@@ -49,7 +49,7 @@ Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degre
 ```
         ①
       /   \
-    ②       ③
+   ②      ③
   /  \    /   \
  ④   ⑤  ⑥    ⑦
 ```
