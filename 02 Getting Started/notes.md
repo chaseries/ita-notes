@@ -74,7 +74,39 @@ We will generally focus on worst-case and average-case analysis and disregard th
 
 In general, it isn't constant factors, but only the *rate of growth* or *order of growth* that interests us.
 
+**We therefore only consider the leading term of a formula (e.g., *an*<sup>2</sup>)**, since the lower-order terms are relatively insignificant for larger values of *n*. We write that insertion sort has a worst-case running time of Θ(*n*<sup>2</sup>) (pronounced "theta of *n*-squared").
+
+**We usually consider one algorithm to be more efficient than another if its worstcase
+running time has a lower order of growth.**
+
+### Exercises
+
+**2.2-1**
+
+Θ(*n*<sup>3</sup>)
+
+**2.2-2**
+
+Best-case: Θ(*n*<sup>2</sup>); worst-case: Θ(*n*<sup>2</sup>).
+
+**2.2-3**
+
+Not doing this one.
+
+**2.2-4**
+
+Cache, duh.
+
+## 2.3 Designing algorithms
+
+
+
+
+
+
 ### Definitions
 
 *Analysis*: Predicting the resources an algorithm requires.
 *Input size*: A notion representing the heft of the problem a given algorithm must solve. *Input size* may most appropriately refer to different things, like the number of elements in a sortable array, or the number of bits involved in integer multiplication.
+*Incremental*:
+*Divide and conquer*:
