@@ -14,4 +14,4 @@ We will use asymptotic notation primarily to describe the running times of algor
 
 The expression Θ(*f*(*n*)) is the set of functions: 
 
-{ *g*(*n*) | ∃ *c<sub>1</sub>*, *c<sub>2</sub>*, *n<sub>0</sub>* ∈ ℕ, ∀ *n* ≥ *n<sub>0</sub>*, 0 ≤ *c<sub>1</sub>* *f*(*n*) ≤ *g*(*n*) ≤ *c*<sub>2</sub>*f*(*n*)}.
+{ *g*(*n*) | ∃ *c*<sub>1</sub>, *c*<sub>2</sub>, *n*<sub>0</sub> ∈ ℕ, ∀ *n* ≥ *n*<sub>0</sub>, 0 ≤ *c*<sub>1</sub> *f*(*n*) ≤ *g*(*n*) ≤ *c*<sub>2</sub>*f*(*n*) }.
