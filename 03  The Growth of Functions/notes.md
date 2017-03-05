@@ -10,8 +10,8 @@ The notations we use to describe the asymptotic running time of an algorithm are
 
 ### Asymptotic notation, functions, and running times
 
-We will use asymptotic notation primarily to describe the running times of algorithms, as when we wrote that insertion sort's worst-case running tie is 
+The expression Θ(*g*(*n*)) is the set of functions: 
 
-The expression Θ(*f*(*n*)) is the set of functions: 
+{ *f*(*n*) | ∃ *c*<sub>1</sub>, *c*<sub>2</sub>, *n*<sub>0</sub> ∈ ℕ, ∀ *n* ≥ *n*<sub>0</sub>, 0 ≤ *c*<sub>1</sub> *g*(*n*) ≤ *f*(*n*) ≤ *c*<sub>2</sub>*g*(*n*) }.
 
-{ *g*(*n*) | ∃ *c*<sub>1</sub>, *c*<sub>2</sub>, *n*<sub>0</sub> ∈ ℕ, ∀ *n* ≥ *n*<sub>0</sub>, 0 ≤ *c*<sub>1</sub> *f*(*n*) ≤ *g*(*n*) ≤ *c*<sub>2</sub>*f*(*n*) }.
+
