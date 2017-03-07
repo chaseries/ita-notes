@@ -4,15 +4,15 @@
 
 Sets are as fundamental to computer science as they are to mathematics. Whereas mathematical sets are unchanging, the sets manipulated by algorithms can grow, shrink, or otherwise change over time.
 
-We call such sets *dynamic*.
+We call such sets *dynamic*. (I thought these were referred to as colletions? Stacks, for instance, don't meet the mathematical criteria of a set. Also, why is this section called *Data Structures* when these are clearly *abstract data types*?—Ed.)
 
-The best wy to implement a dynamic set depends upon the operations that must be supported.
+The best way to implement a dynamic set depends upon the operations that must be supported.
 
 ## Elements of a dynamic set
 
 In a typical implementation of a dynamic set, each element is represented by an object whose attributes can be examined and manipulated if we have a pointer to the object.
 
-Some kinds of dynamic sets assume that one of the object's attributes is an identifying *key*. Objects may also contain *satellite data*, which are carrie daround in other object attributes but are otherwise unused by the set implementation.
+Some kinds of dynamic sets assume that one of the object's attributes is an identifying *key*. Objects may also contain *satellite data*, which are carried around in other object attributes but are otherwise unused by the set implementation.
 
 ### Operations on dynamic sets
 
@@ -40,8 +40,6 @@ SUCCESSOR(*S*, *x*)
 
 PREDECESSOR(*S*, *x*)
   A query that, given an element *x* whose key is from a totally-ordered set *S*, returns a pointer to the next-smaller element in *S*, or NIL if *x* is the minimum element.
-
-(Damn!)
 
 ### Definitions:
 
