@@ -51,6 +51,8 @@ For the *adjacency matrix representation* of a graph *G* = (*V*, *E*), we assume
     a (i, j) | (i, j) ∈ E = 1
              | otherwise = 0
 
+An adjacency matrix can also represent a weighted graph. For example, *G* = (*V*, *E*) is a weighted graph with edge-weight function *w*. We can simply store the weight *w*(*u*, *v*) of the edge (*u*, *v*) ∈ *E* as the entry in row *u* and column *v* of the adjacency matrix. If an edge does not exist, we can store a NIL value in its corresponding matrix entry (though for many problems it is convenient to use a value such as 0 or ∞).
+
 ### Exercises
 
 **22.1-1**
