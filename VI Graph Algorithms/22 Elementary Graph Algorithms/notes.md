@@ -67,7 +67,6 @@ Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degre
    ②       ③
   /  \    /   \
  ④   ⑤  ⑥    ⑦
-```
 
 { 1: [2,3] 
 , 2: [1,4,5]
@@ -86,6 +85,7 @@ Calculating the out-degrees would require Θ(|V| + |E|) time, while the in-degre
 5  0 1 0 0 0 0 0
 6  0 0 1 0 0 0 0
 7  0 0 1 0 0 0 0
+```
 
 ## 22.2 Breadth-first search
 
